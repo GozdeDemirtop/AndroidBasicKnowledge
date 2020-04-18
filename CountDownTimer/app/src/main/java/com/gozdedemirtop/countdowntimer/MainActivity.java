@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.textView);
 
-        new CountDownTimer(10000,100){
+        new CountDownTimer(10000,1000){
 
             @Override
             public void onTick(long millisUntilFinished) {
